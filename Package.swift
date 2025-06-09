@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "OpenCVSPM",
+    name: "opencv2",
     platforms: [
         .iOS(.v13), .macCatalyst(.v13)
     ],
