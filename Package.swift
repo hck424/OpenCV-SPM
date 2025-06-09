@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "opencv2",
+    name: "OpenCV-SPM",
     platforms: [
         .iOS(.v13), .macCatalyst(.v13)
     ],
     products: [
-        .library(name: "opencv2", targets: ["opencv2"])
+        .library(name: "OpenCV-SPM", targets: ["opencv2"])
     ],
     targets: [
         .binaryTarget(
