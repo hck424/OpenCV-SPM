@@ -1,0 +1,31 @@
+# Build artifacts
+.build/
+DerivedData/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+
+# User-specific files
+xcuserdata/
+*.swp
+*.swo
+*.tmp
+.DS_Store
+
+# XCFramework (대용량 프레임워크)
+opencv2.xcframework/
+opencv2.xcframework.zip
+
+# Swift Package dependencies
+Packages/
+.swiftpm/
+
+# Logs
+*.log
+
+# Xcode previews
+*.preview-thumbnails/
+
+# Other
+.idea/
+*.orig
+
